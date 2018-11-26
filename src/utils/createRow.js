@@ -17,7 +17,7 @@ function createRow(
         .map(i =>
             createCell(opts, getCellContent ? getCellContent(i) : undefined),
         )
-        .toJS();
+        .toJSON();
 
     return Block.create({
         type: opts.typeRow,

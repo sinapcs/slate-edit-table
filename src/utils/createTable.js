@@ -22,7 +22,7 @@ function createTable(
                 getCellContent ? getCellContent.bind(null, i) : undefined
             )
         )
-        .toJS();
+        .toJSON();
 
     return Block.create({
         type: opts.typeTable,
