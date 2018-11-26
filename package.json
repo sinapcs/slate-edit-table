@@ -1,5 +1,5 @@
 {
-  "name": "@domoinc/slate-edit-table",
+  "name": "slate-table-plugin",
   "description": "A Slate plugin to handle keyboard events in tables.",
   "version": "0.20.5",
   "license": "Apache-2.0",
